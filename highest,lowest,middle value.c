@@ -14,7 +14,7 @@ void main()
     scanf("%d",&c);
     if (a>b && a>c)
     {
-        printf("%d id the biggest \n",a);
+        printf("%d is the biggest \n",a);
         if (b>c)
         {
             printf("%d is the middle \n",b);
@@ -28,7 +28,7 @@ void main()
     }
     else if (b>a && b>c)
     {
-        printf("%d id the biggest \n",b);
+        printf("%d is the biggest \n",b);
         if (a>c)
         {
             printf("%d is the middle \n",a);
@@ -42,7 +42,7 @@ void main()
     }
     else if (c>b && c>a)
     {
-        printf("%d id the biggest \n",c);
+        printf("%d is the biggest \n",c);
         if (b>a)
         {
             printf("%d is the middle \n",b);
